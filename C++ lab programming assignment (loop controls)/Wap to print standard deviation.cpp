@@ -17,14 +17,4 @@ int main ()
         square_sum=(arr[i]*arr[i])+square_sum;
         
     }
-// calculating the sum
-    for (int i = 0; i < n; i++) {
-       sum=sum+arr[i];
-    }
-    avg1=sum/n;
-    avg2=avg1*avg1;
-//calculating standard deviation
-    standard_devi=sqrt((square_sum/n)-avg2);
-    cout <<"\nStandard deviation= :"<<standard_devi;
-    return 0;
 }
