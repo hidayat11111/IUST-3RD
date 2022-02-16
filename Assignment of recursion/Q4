@@ -1,0 +1,9 @@
+"Recursion" is technique of solving any problem by calling same function again and again until some breaking (base) condition where recursion stops and it starts calculating the solution from there on. For eg. calculating factorial of a given number
+Thus in recursion last function called needs to be completed first.
+Now Stack is a LIFO data structure i.e. ( Last In First Out) and hence it is used to implement recursion.
+The High level Programming languages, such as Pascal , C etc. that provides support for recursion use stack for book keeping.
+In each recursive call, there is need to save the
+current values of parameters,
+local variables and
+the return address (the address where the control has to return from the call).
+Also, as a function calls to another function, first its arguments, then the return address and finally space for local variables is pushed onto the stack.
