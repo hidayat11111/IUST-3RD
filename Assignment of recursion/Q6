@@ -1,0 +1,7 @@
+A Recursive function is a function which calls itself, and after every iteration it moves towards the solution of the problem.
+
+Whether recursive function has finished its job or not is defined by the stopping condition. (If conditional statement , as you asked in question.)
+
+Stopping condition can be any conditional statement (most cases), or it can be exception depending upon the implementation.
+
+Any recursive function without stoppage condition goes to infinite loop and blow up the stack.
