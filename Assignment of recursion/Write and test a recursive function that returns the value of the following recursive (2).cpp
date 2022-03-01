@@ -1,5 +1,4 @@
 #include<iostream>
-#include<stdio.h>
 int recu(int );
 int main()
 {
